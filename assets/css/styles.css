@@ -1,7 +1,18 @@
-body {
-    font-family: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
+body {
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    margin-left: 20px;
+}
+
+ul, ol {
+    margin-top: 5px;
+    padding-left: 20px;
+}
 
 .main {
     font-size: 24px;
@@ -23,7 +34,7 @@ body {
     height: auto;
 }
 
-.recipe-card a {
+.recipe-card .recipe-text {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -32,4 +43,11 @@ body {
     font-size: 24px;
     font-weight: bold;
 
+}
+
+.ingredients {
+    background-color: blanchedalmond;
+    margin: 10px 0;
+    padding: 5px 0;
+    max-width: 600px;
 }
